@@ -25,6 +25,10 @@ xattr -dr com.apple.quarantine /Applications/PULS.app
 Windows-Updates werden als `.puls`-Paket über die PULS-Sammelstelle verteilt
 und erscheinen nicht in diesem Repository.
 
+Das jeweils aktuelle Setup (`PULS-Setup-<Version>.exe`) liegt zusätzlich als
+Release-Asset bereit. Es enthält den vollständigen Installer; das schlanke
+`.puls`-Update bleibt der Weg für bestehende Installationen.
+
 ## Lizenz
 
 PULS ist proprietäre Software. Installation und Nutzung nur mit gültiger
